@@ -1,0 +1,52 @@
+Air Quality Measurement
+
+Description
+
+ We will use sensors to monitor dust particles, carbon dioxide, carbon monoxide, nitrogen dioxide and sulfur dioxide levels and this information can be shared with the public through smartphones, where the smartphone app allows people to monitor real-time data of the current air quality level in the area
+ These sensors are connected to a microcontroller to control the sensors network. The data collected by the microcontroller is transmitted to the cloud for analysis. The analyzed data is shared to the public through a smartphone app
+ For controlling these sensors, microcontrollers are used and the microcontrollers also act as transmitter to transmit the data to the cloud database
+ Further we are planning to process this data using Data Analytics and Machine Learning 
+ This processed data can be used for prediction of humidity , pollution , temperature for different seasons 
+
+ This is a guide to data analytics basic functions
+ link - https://www.gsma.com/iot/wp-content/uploads/2018/08/Air-Quality-Monitoring-Report_IoT-Big-Data_0818.pdf
+
+Sample Projects for Info:
+
+All of these projects only focus on extracting data from sensor and reporting to cloud
+We need external codes or techniques for using Machine Learning based approach for prediction
+
+Project 1
+link - https://electronicsforu.com/electronics-projects/iot-enabled-air-pollution-meter
+
+ Using blynk app
+ Blynk is an Internet of Things (IoT) platform to control Arduino, Raspberry Pi and the like over the Internet
+Things Required
+ Arduino Uno ,Arduino Uno Ethernet shield, nova PM sensor SDS011, gas sensor MQ135, temperature and humidity sensor DHT11
+ All the codes are available in the website
+
+Project 2
+link - https://electronicsforu.com/electronics-projects/esp32-based-air-quality-monitoring-system
+
+Sensor - BME280 ,rest same as above
+The project is based on ThingSpeak cloud computing. ThingSpeak is an open source IoT application and API to store and retrieve data from things using HTTP protocol over the Internet via LAN
+If you send data from the sensors to ThingSpeak at regular intervals, it will create, store and display data in a trend automatically
+Unfortunately the code file is corrupted , hopefully it will be restored
+
+These set of projects are from arduino.cc (open-source), some of these have really good documentation :)
+
+Project 3
+link - https://create.arduino.cc/projecthub/devicehub-net/air-quality-weather-station-054a4a?ref=search&ref_id=air%20quality&offset=1
+This project is mostly similar to above 1 and 2 but this uses a different cloud website (devicehub.net) 
+
+Project 4
+link - https://create.arduino.cc/projecthub/mustafa-hesham/air-quality-monitor-b23523?ref=search&ref_id=air%20quality&offset=2
+
+Project 5
+link - https://create.arduino.cc/projecthub/58229/air-meter-making-4-complete-f35147?ref=search&ref_id=air%20quality&offset=3
+https://www.hackster.io/63454/air-meter-making-3-using-thingspeak-0f5ba3
+This is thinkspeak code link 
+
+
+
+
