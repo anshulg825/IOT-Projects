@@ -2,7 +2,7 @@
 
 Codes related to 'Air Quality Measurement' IOT project
 
-Unfortunately the project was not completed, I have uploaded some codes used in developing the module
+I have uploaded some codes used in developing the module
 
 The project was divided in two parts,
 
