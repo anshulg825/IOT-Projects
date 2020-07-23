@@ -11,10 +11,9 @@ Description
  This is a guide to data analytics basic functions
  link - https://www.gsma.com/iot/wp-content/uploads/2018/08/Air-Quality-Monitoring-Report_IoT-Big-Data_0818.pdf
 
-Sample Projects for Info:
-
-All of these projects only focus on extracting data from sensor and reporting to cloud
 We need external codes or techniques for using Machine Learning based approach for prediction
+
+Some references for similar projects:
 
 Project 1
 link - https://electronicsforu.com/electronics-projects/iot-enabled-air-pollution-meter
