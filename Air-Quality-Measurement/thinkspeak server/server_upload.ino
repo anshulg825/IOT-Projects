@@ -9,7 +9,7 @@
 int ledPin = 13;
  
 // Enter Write API key for your own thingspeak channel
-String apiKey = "Thingspeak channel write API Key";
+String apiKey = "123456789";
  
 SoftwareSerial ser(10, 11); // RX / TX configuration, serial object creation
 DHT dht(DHTPIN, DHTTYPE);
